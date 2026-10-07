@@ -1,0 +1,79 @@
+{
+  "best_model_cv": "HistGradientBoosting",
+  "best_cv_auc": 0.7896,
+  "best_cv_auc_leak": 0.9264,
+  "cv_table_B": [
+    {
+      "Model": "HistGradientBoosting",
+      "Accuracy": 0.7349,
+      "F1": 0.6923,
+      "ROC-AUC": 0.7896,
+      "AUC std": 0.0067
+    },
+    {
+      "Model": "Gradient Boosting",
+      "Accuracy": 0.7341,
+      "F1": 0.6855,
+      "ROC-AUC": 0.7862,
+      "AUC std": 0.0064
+    },
+    {
+      "Model": "SVM (RBF)",
+      "Accuracy": 0.7295,
+      "F1": 0.671,
+      "ROC-AUC": 0.7788,
+      "AUC std": 0.0069
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.7266,
+      "F1": 0.6921,
+      "ROC-AUC": 0.7783,
+      "AUC std": 0.0045
+    },
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.7064,
+      "F1": 0.6549,
+      "ROC-AUC": 0.7646,
+      "AUC std": 0.0063
+    },
+    {
+      "Model": "KNN",
+      "Accuracy": 0.7066,
+      "F1": 0.655,
+      "ROC-AUC": 0.7595,
+      "AUC std": 0.0081
+    },
+    {
+      "Model": "Extra Trees",
+      "Accuracy": 0.7008,
+      "F1": 0.6679,
+      "ROC-AUC": 0.7551,
+      "AUC std": 0.0059
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.6744,
+      "F1": 0.6057,
+      "ROC-AUC": 0.7274,
+      "AUC std": 0.0089
+    }
+  ],
+  "tuned_cv_auc": 0.7936,
+  "old_acc": 0.8527,
+  "old_auc": 0.9155,
+  "new_acc": 0.747,
+  "new_auc": 0.7952,
+  "new_f1": 0.7006,
+  "top_features": [
+    "month",
+    "contact",
+    "poutcome",
+    "day",
+    "age"
+  ],
+  "capture_top30": 52.9,
+  "capture_top50": 73.7,
+  "lift_top10": 1.96
+}
